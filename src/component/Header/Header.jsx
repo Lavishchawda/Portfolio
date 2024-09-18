@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="bg-light-semi-color py-4 px-6 flex flex-row justify-between items-center">
       <div className="text-white cursor-pointer">
-      Lavish
+      Lavish Chawda
       </div>
       <div className='text-white cursor-pointer'>
         <ul className="flex gap-3">
