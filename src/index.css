@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+
+  :root{
+    --dark: #5A639C;
+    --dark-semi: #7776B3;
+    --light-semi: #9B86BD;
+    --light : #F2BBE9;
+  }
+  
+
+  .dark-text {
+    color: var(--dark);
+  }
+    
+  .dark-semi-text {
+    color: var(--dark-semi);
+  }
+
+  .light-semi-text {
+    color:var(--light-semi);
+  }
+
+  .light-text {
+    color:var(--light);
+  }
+
+  .bg-dark-color {
+    background: var(--dark);
+  }
+    
+  .bg-dark-semi-color {
+    background: var(--dark-semi);
+  }
+
+  .bg-light-semi-color {
+    background:var(--light-semi);
+  }
+
+  .bg-light-color {
+    background:var(--light);
+  }
