@@ -19,8 +19,17 @@
     --dark-semi: #7776B3;
     --light-semi: #9B86BD;
     --light : #F2BBE9;
+    --white : #FFFFFF;
+    --white-light : #BEC7D5;
   }
   
+  .text-white{
+    color:var(--white);
+  }
+  .text-white-light {
+    color:var(--white-light);
+  }
+
   .dark-text {
     color: var(--dark);
   }
