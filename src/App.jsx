@@ -17,8 +17,8 @@ function App() {
        <Summary/>
        <Skill/>
        <Project/>
-       {/* <Contact/>
-       <Footer/> */}
+       <Contact/>
+       <Footer/>
     </>
   )
 }

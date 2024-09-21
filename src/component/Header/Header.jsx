@@ -1,10 +1,8 @@
-import React from 'react'
-
 function Header() {
   return (
-    <div className="bg-light-semi-color py-4 px-6 flex flex-row justify-between items-center">
+    <div className="bg-dark-semi-color  py-4 px-6 flex flex-row justify-between items-center sticky top-0 z-20">
       <div className="text-white cursor-pointer">
-      Lavish Chawda
+        Lavish Chawda
       </div>
       <div className='text-white cursor-pointer'>
         <ul className="flex gap-3">
@@ -15,7 +13,7 @@ function Header() {
         </ul>
       </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;
