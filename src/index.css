@@ -63,7 +63,7 @@
   }
 
   .square-card{
-    background: var(--white);
+    background: var();
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,7 +74,7 @@
   
   .circle-card{
     height: 100px;
-    background: var(--white);
+   
     width: 100px;
     border-radius: 100%;
     display: flex;
