@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
@@ -15,13 +14,17 @@ export default {
         scaleUp: 'scaleUp 0.3s ease-in-out',
         shake: 'shake 0.5s ease-in-out',
         pulse: 'pulse 1s infinite', // Add a pulse effect
+        wave: 'wave 2s ease-in-out infinite', // Add the wave effect
       },
       keyframes: {
-        // Existing keyframes...
         pulse: {
           '0%': { transform: 'scale(1)' },
           '50%': { transform: 'scale(1.05)' },
           '100%': { transform: 'scale(1)' },
+        },
+        wave: {
+          '0%, 100%': { transform: 'translateY(0)' },  // Starting and ending at the same position
+          '50%': { transform: 'translateY(-10px)' },   // Move up slightly at 50%
         },
       },
     },

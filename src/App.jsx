@@ -6,6 +6,7 @@ import Skill from "./component/Skill/Skill";
 import Project from "./component/Project/Project";
 import Contact from "./component/Contact/Contact";
 import Footer from "./component/Footer/Footer";
+import Tools from "./component/Skill/Tools";
 
 import './App.css'
 
@@ -16,9 +17,11 @@ function App() {
        <Hero/>
        <Summary/>
        <Skill/>
+       <Tools/>
        <Project/>
        <Contact/>
        <Footer/>
+
     </>
   )
 }

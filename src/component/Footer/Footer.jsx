@@ -5,18 +5,14 @@ function Footer() {
   const year = date.getFullYear();
 
   return (
-    <div className="bg-slate-900 text-white py-4 static">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="">
-          <h3>Designed and Developed </h3>
-            <h3>Lavish Chawda</h3>
-             
+    <div className="bg-slate-900 text-white py-4">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4">
+        <div className="text-center md:text-left mb-2 md:mb-0">
+          <h3 className="text-lg md:text-sm">Designed and Developed </h3>
+          <h3 className="text-lg md:text-sm">by <span className='font-bold'>Lavish Chawda</span></h3>
         </div>
-        <div >
-          <h3>Copyright © {year} LC</h3>
-        </div>
-        <div >
-          <p>Follow me on social media</p>
+        <div className="text-center mb-2 md:mb-0 md:text-right">
+        <h3 className="text-sm md:text-sm">Copyright © {year} LC</h3>
         </div>
       </div>
     </div>

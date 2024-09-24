@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
   return (
     <div className="bg-slate-900 px-4 md:px-12 lg:px-24 xl:px-48 pt-12">
-      <h3 className="text-white text-center mb-6 text-lg md:text-xl lg:text-2xl">Contact</h3>
+      <h3 className="text-white text-center mb-6 text-lg md:text-xl lg:text-2xl">Contact Me</h3>
 
       <div className="home-about-social p-4 md:p-6">
         <ul className="home-about-social-links flex flex-wrap justify-center space-x-2 md:space-x-4">

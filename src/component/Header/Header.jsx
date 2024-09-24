@@ -18,8 +18,8 @@ function Header() {
 
   return (
     <div className="bg-slate-900 py-4 px-6 flex flex-row justify-between items-center sticky top-0 z-20">
-      <div className="text-white cursor-pointer">
-        Lavish Chawda
+      <div className="text-white cursor-pointer font-bold">
+        LC.
       </div>
 
       <div className="relative">
