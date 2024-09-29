@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'; // Import Framer Motion
 import pdfFile from '../../assets/Lavish_Chawda_Resume.pdf';
 import backgroundImage from '/Users/lavishchawda/Desktop/Portfolio/src/assets/night-sky.jpg'; // Adjust the import path as needed
 
-function Summary() {
+function About() {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef();
 
@@ -22,7 +22,7 @@ function Summary() {
   }, []);
 
   return (
-    <div className="relative w-full pt-20 px-4 sm:px-8 md:px-16 lg:px-32"> {/* Adjust padding for responsiveness */}
+    <div id='about' className="relative w-full pt-20 px-4 sm:px-8 md:px-16 lg:px-32"> {/* Adjust padding for responsiveness */}
       {/* Background Image with Blur Effect */}
       <div 
         className="absolute inset-0 z-0"
@@ -35,7 +35,7 @@ function Summary() {
         }}
       />
 
-      <h3 className="text-white text-center mb-4 text-2xl font-poppins md:text-3xl">Summary</h3>
+      <h3 className="text-white text-center mb-4 text-2xl font-poppins md:text-3xl">About</h3>
 
       {/* Adding Framer Motion for smooth animations */}
       <motion.p 
@@ -66,4 +66,4 @@ function Summary() {
   );
 }
 
-export default Summary;
+export default About;

@@ -4,8 +4,22 @@ import Type from "../../component/Hero/type";
 import dp from "../../assets/dp.jpg";
 
 function Hero() {
+  const SCROLL_OFFSET = 30; // Adjust as needed
+
+  const scrollToSection = (sectionId) => () => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const offsetTop = section.getBoundingClientRect().top + window.pageYOffset - SCROLL_OFFSET;
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth',
+      });
+    }
+    setIsMenuOpen(false);
+  };
+
   return (
-    <div
+    <div id='hero'
       className="w-full relative bg-black pt-20"
       style={{
         backgroundImage: `url(${backgroundImage})`,
@@ -33,8 +47,8 @@ function Hero() {
       </div>
 
       {/* Custom Bouncing Arrow */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2">
-        <div className="bounce-arrow text-white text-4xl">
+      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-30">
+        <div className="bounce-arrow text-white text-4xl cursor-pointer" onClick={scrollToSection('about')}>
           ↓
         </div>
       </div>

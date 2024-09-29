@@ -27,7 +27,7 @@ const ProjectCard = ({ title, url, imgSrc }) => (
 
 function Project() {
   return (
-    <div className="w-full bg-black pt-20 pb-20" // Added padding-bottom to create space below the section
+    <div id='project' className="w-full bg-black pt-20 pb-20" // Added padding-bottom to create space below the section
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
@@ -39,7 +39,7 @@ function Project() {
 
       {/* Flexbox Container for Cards */}
       <div className="flex flex-wrap gap-6 items-start justify-center pt-5 px-4">
-        <ProjectCard title="One Scroll" url="https://example.com/one-scroll" imgSrc={img1} />
+        <ProjectCard title="One Scroll" url="https://github.com/Lavishchawda/One-Scroll.git" imgSrc={img1} />
         <ProjectCard title="Surbhi Documentation" url="https://example.com/surbhi-documentation" imgSrc={img2} />
         <ProjectCard title="JS" url="https://example.com/js-project" imgSrc={img3} />
       </div>
