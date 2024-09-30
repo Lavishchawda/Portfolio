@@ -19,8 +19,8 @@ function Header() {
   // Define menu items once
   const menuItems = [
     { id: 'about', label: 'About' },
-    { id: 'project', label: 'Project' },
     { id: 'skills', label: 'Skills' },
+    { id: 'project', label: 'Project' },
     { id: 'contact', label: 'Contact' },
   ];
 
