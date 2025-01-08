@@ -1,6 +1,6 @@
 import React from 'react';
-import img1 from '../../assets/netflix.jpg'; 
-import img2 from '../../assets/netflix.jpg'; 
+import img1 from '../../assets/onescroll.png'; 
+import img2 from '../../assets/Vintage-boutique.png'
 import img3 from '../../assets/netflix.jpg'; 
 import backgroundImage from '/Users/lavishchawda/Desktop/Portfolio/src/assets/night-sky.jpg'; // Adjust the import path as needed
 
@@ -40,7 +40,7 @@ function Project() {
       {/* Flexbox Container for Cards */}
       <div className="flex flex-wrap gap-6 items-start justify-center pt-5 px-4">
         <ProjectCard title="One Scroll" url="https://github.com/Lavishchawda/One-Scroll.git" imgSrc={img1} />
-        <ProjectCard title="Surbhi Documentation" url="https://example.com/surbhi-documentation" imgSrc={img2} />
+        <ProjectCard title="Vintage-boutique" url="https://github.com/Lavishchawda/Vintage-boutique.git" imgSrc={img2} />
         <ProjectCard title="JS" url="https://example.com/js-project" imgSrc={img3} />
       </div>
     </div>

@@ -45,11 +45,11 @@ function About() {
         animate={isVisible ? { opacity: 1, y: 0 } : {}}  // Smooth entrance when visible
         transition={{ duration: 0.8 }}
       >
-        I have done MCA with a strong foundation in software development, including experience with modern
-        web technologies such as React, and demonstrated the ability to write clean, efficient code and
-        collaborate effectively with cross-functional teams. Eager to contribute to innovative projects in a
-        learning-oriented environment. Proficient in cloud platforms like GCP, with a keen interest in
-        continuously learning emerging technologies, including AI.
+        A highly motivated MCA graduate with expertise in JavaScript, React, HTML,
+        CSS, and manual testing. Skilled in developing responsive web applications,
+        collaborating with cross-functional teams, and eager to enhance backend
+        development and automation testing skills. Known for attention to detail,
+        creativity, and a proactive approach to problem-solving.
       </motion.p>
 
       <div className="w-full flex justify-center py-6">
